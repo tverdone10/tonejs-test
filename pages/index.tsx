@@ -46,7 +46,7 @@ export default function Home() {
 				c: true,
 			}));
 		}
-		if (event.key === "c" && !isKeyPressed.b) {
+		if (event.key === "b" && !isKeyPressed.b) {
 			toneRef.current?.triggerAttack("G4");
 			setIsKeyPressed((prev) => ({
 				...prev,
